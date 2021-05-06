@@ -7,7 +7,7 @@
   <groupId>io.github.opendataio</groupId>
   <artifactId>hcfs-cephfs</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.5</version>
   <name>hcfs-cephfs</name>
   <url>https://github.com/opendataio/hcfs-ceph</url>
   <description>Hadoop compatible Filesystem implementation for cephfs.</description>
@@ -46,7 +46,7 @@
     <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
     <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
     <hadoop.version>2.8.5</hadoop.version>
-    <libcephfs.version>0.80.5</libcephfs.version>
+    <libcephfs.version>0.0.1</libcephfs.version>
   </properties>
 
   <dependencies>
@@ -64,7 +64,7 @@
     </dependency>
 
     <dependency>
-      <groupId>com.ceph</groupId>
+      <groupId>io.github.opendataio</groupId>
       <artifactId>libcephfs</artifactId>
       <version>${libcephfs.version}</version>
     </dependency>
